@@ -45,7 +45,7 @@ From: ubuntu:18.04
     echo "#!/bin/bash" >> /temp/startup.sh
     echo "mkdir sede" >> /temp/startup.sh
     echo "cd sede" >> /temp/startup.sh
-    echo "git clone https://github.com/CRC-901-On-the-Fly-Computing/executor-bootup.git . --branch master" >> /temp/startup.sh
+    echo "git clone https://github.com/CRC-901-On-the-Fly-Computing/executor-bootup.git . --branch main" >> /temp/startup.sh
     echo "cp /config.json ./config.json" >> /temp/startup.sh
     echo "find . -type f -name '*.sh' | xargs chmod +x" >> /temp/startup.sh
     echo "./generate.sh" >> /temp/startup.sh
