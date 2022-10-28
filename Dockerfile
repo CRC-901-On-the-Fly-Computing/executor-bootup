@@ -50,7 +50,6 @@ RUN echo "cd /sede" >> /temp/startup.sh
 ## a. Clone the bootup scripts in current directory, even if it is not empty
 RUN echo "git init ." >> /temp/startup.sh
 RUN echo "git remote add -t \\* -f origin https://github.com/CRC-901-On-the-Fly-Computing/executor-bootup.git" >> /temp/startup.sh
-RUN echo "git checkout dev-dockerfile" >> /temp/startup.sh
 
 RUN echo "cp /temp/config.json /sede/config.json" >> /temp/startup.sh
 
