@@ -49,7 +49,8 @@ RUN echo "cd /sede" >> /temp/startup.sh
 
 ## a. Clone the bootup scripts in current directory, even if it is not empty
 RUN echo "git init ." >> /temp/startup.sh
-RUN echo "git remote add origin https://github.com/CRC-901-On-the-Fly-Computing/executor-bootup.git -main" >> /temp/startup.sh
+RUN echo "git remote add origin https://github.com/CRC-901-On-the-Fly-Computing/executor-bootup.git -master" >> /temp/startup.sh
+RUN echo "git config remote.origin.fetch refs/heads/*:refs/remotes/origin/*" >> /temp/startup.sh
 RUN echo "git fetch origin main && git pull origin main" >> /temp/startup.sh
 
 RUN echo "cp /temp/config.json /sede/config.json" >> /temp/startup.sh
