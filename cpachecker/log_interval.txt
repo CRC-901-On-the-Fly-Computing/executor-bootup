@@ -1,0 +1,330 @@
+***** INPUT:  service_blend *****
+rm: das Entfernen von 'output/*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 79 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    39.145s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_canny *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 72 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sqrt found, first called in line 235 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2 found, first called in line 240 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    36.391s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_contrast *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    26.134s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_cutselection *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.254s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_deform *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 96 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2f found, first called in line 102 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function cosf found, first called in line 103 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sinf found, first called in line 104 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function pow found, first called in line 138 (CheckBindingVisitor.visit, WARNING)
+
+line 160: Dead code detected: break; (CFACreationUtils.addEdgeToCFA, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    17.034s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_dim *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    14.153s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_dim2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    20.071s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_fft *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 80: illegal floating point literal: 1.0iF (full line is cpl t = cexp(-
+# 80 "preprocessed.c" 3 4
+                 (__extension__ 1.0iF) 
+# 80 "preprocessed.c"
+                   * PI * i / n) * out[i + step];)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gaussblur *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 66 (CheckBindingVisitor.visit, WARNING)
+
+Error: Parsing failed (line 78: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@6892b3b6: Type depends on an unresolved name of initializer are not assignment compatible: 1.0/(M_PI*sigma2_2) (full line is double factor = 1.0/(M_PI*sigma2_2);)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gausslowpass *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    40.980s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gausslowpass2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 100 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Shutdown requested (The JVM is shutting down, probably because Ctrl+C was pressed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Warning: Analysis interrupted (The JVM is shutting down, probably because Ctrl+C was pressed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Writing output files from org.sosy_lab.cpachecker.cpa.arg.ARGStatistics took    18.122s. (StatisticsUtils.writeOutputFiles, WARNING)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".

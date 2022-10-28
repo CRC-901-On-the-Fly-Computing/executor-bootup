@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="parameters">Parameters</h1>
+<ul>
+<li>%analysis%:			Refers to the CPAchecker config file <em>(Defining analysis)</em></li>
+<li>%specification%:		CPAchecker specification file <em>(Defining correctness)</em></li>
+<li>%program%:			.c source code file to verify</li>
+<li>…/…proof*:		Certificate</li>
+<li>preprocessed.c*:		Preprocessed version of %program%</li>
+</ul>
+<ul>
+<li>static parameter which is hidden in the runscript</li>
+</ul>
+<h2 id="checking-for-the-testbed">Checking (for the TestBed)</h2>
+<p>cmd:<br>
+./run_check.sh %specification% %analysis% %program%</p>
+<p>example:<br>
+./run_check.sh default.spc sign basicServices/service_grey/service_grey_cpu.c</p>
+<h3 id="output">Output</h3>
+<pre class=" language-bash"><code class="prism  language-bash">Preprocessing<span class="token punctuation">..</span>. done<span class="token operator">!</span>
+Running CPAchecker with default heap size <span class="token punctuation">(</span>1200M<span class="token punctuation">)</span>. Specify a larger value with -heap <span class="token keyword">if</span> you have <span class="token function">more</span> RAM.
+Running CPAchecker with default stack size <span class="token punctuation">(</span>1024k<span class="token punctuation">)</span>. Specify a larger value with -stack <span class="token keyword">if</span> needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found <span class="token keyword">in</span> the directory <span class="token string">"./output"</span><span class="token keyword">.</span>
+Graphical representation included <span class="token keyword">in</span> the <span class="token function">file</span> <span class="token string">"./output/Report.html"</span><span class="token keyword">.</span>
+</code></pre>
+<p>We are interested in the fact that the verification result is <code>TRUE</code>.</p>
+<h2 id="generation-for-us">Generation (for us)</h2>
+<p>cmd:<br>
+./run_gen.sh %specification% %analysis% %program%</p>
+<p>example:<br>
+./run_gen.sh default.spc sign basicServices/service_grey/service_grey_cpu.c</p>
+</div>
+</body>
+
+</html>

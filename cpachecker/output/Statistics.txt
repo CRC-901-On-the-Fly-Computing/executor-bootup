@@ -1,0 +1,100 @@
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  1.173s
+  Time for transition matches:                         0.507s
+  Time for transition assertions:                      0.000s
+  Time for transition actions:                         0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                        59461 (count: 59461, min: 1, max: 1, avg: 1.00) [1 x 59461]
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.523s
+  Time for transition matches:                         0.198s
+  Time for transition assertions:                      0.000s
+  Time for transition actions:                         0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                        59461 (count: 59461, min: 1, max: 1, avg: 1.00) [1 x 59461]
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.513s
+  Time for transition matches:                         0.169s
+  Time for transition assertions:                      0.000s
+  Time for transition actions:                         0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                        59461 (count: 59461, min: 1, max: 1, avg: 1.00) [1 x 59461]
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            52056
+Max size of waitlist:            6
+Average size of waitlist:        5
+Number of computed successors:   59461
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         7401
+Number of times breaked:         0
+
+Total time for CPA algorithm:       636.558s (Max:   636.558s)
+  Time for choose from waitlist:      0.284s
+  Time for precision adjustment:      1.027s
+  Time for transfer relation:         5.504s
+  Time for merge operator:          388.203s
+  Time for stop operator:           238.075s
+  Time for adding to reached set:     0.899s
+
+CPAchecker general statistics
+-----------------------------
+Number of program locations:     399
+Number of CFA edges:             426
+Number of relevant variables:    18
+Number of functions:             1
+Number of loops:                 10
+Size of reached set:             52060
+  Number of reached locations:   258 (65%)
+    Avg states per location:     201
+    Max states per location:     7401 (at node N92)
+  Number of reached functions:   1 (100%)
+  Number of partitions:          258
+    Avg size of partitions:      201
+    Max size of partitions:      7401 (with key [N92 (before line 142), Function run_service_maxrgb_cpu called from node N1, stack depth 1 [2974f221], stack [run_service_maxrgb_cpu]])
+  Number of target states:       0
+  Size of final wait list        5
+
+Time for analysis setup:          3.470s
+  Time for loading CPAs:          1.271s
+  Time for loading parser:        0.607s
+  Time for CFA construction:      1.479s
+    Time for parsing file(s):     0.530s
+    Time for AST to CFA:          0.351s
+    Time for CFA sanity check:    0.055s
+    Time for post-processing:     0.326s
+      Time for var class.:        0.209s
+        Time for collecting variables:                 0.060s
+        Time for solving dependencies:                 0.001s
+        Time for building hierarchy:                   0.000s
+        Time for building classification:              0.109s
+        Time for exporting data:                       0.016s
+    Time for CFA export:          0.220s
+Time for Analysis:              636.571s
+CPU time for analysis:          648.730s
+Total time for CPAchecker:      640.045s
+Total CPU time for CPAchecker:  653.390s
+Time for statistics:             14.288s
+
+Time for Garbage Collector:       6.011s (in 1105 runs)
+Garbage Collector(s) used:    PS MarkSweep, PS Scavenge
+Used heap memory:                473MB (   451 MiB) max;    226MB (   215 MiB) avg;    621MB (   592 MiB) peak
+Used non-heap memory:             32MB (    31 MiB) max;     30MB (    29 MiB) avg;     38MB (    36 MiB) peak
+Used in PS Old Gen pool:          55MB (    52 MiB) max;     40MB (    38 MiB) avg;    162MB (   154 MiB) peak
+Allocated heap memory:           485MB (   463 MiB) max;    423MB (   404 MiB) avg
+Allocated non-heap memory:        34MB (    33 MiB) max;     34MB (    33 MiB) avg
+Total process virtual memory:   3760MB (  3585 MiB) max;   3759MB (  3585 MiB) avg
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".

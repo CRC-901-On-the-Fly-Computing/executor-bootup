@@ -1,0 +1,5 @@
+digraph functioncalls {
+rankdir=LR;
+
+run_service_maxrgb_cpu [shape="box", color=blue];
+}

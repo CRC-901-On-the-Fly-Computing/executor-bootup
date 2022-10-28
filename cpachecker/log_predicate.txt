@@ -1,0 +1,1081 @@
+***** INPUT:  service_blend *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 79 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+line 79: Return type of function sqrt is void, but result is used as type int: length = sqrt((dirX * dirX) + (dirY * dirY)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function sqrt to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Cannot get declaration of function sqrt, ignoring calls to it. (PredicateCPA:ExpressionToFormulaVisitor.visit, WARNING)
+
+line 803: Return type of function sqrt is void, but result is used as type int: distance__19 = sqrt((dif_x__9 * dif_x__9) + (dif_y__9 * dif_y__9)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 770: Return type of function sqrt is void, but result is used as type int: distance__18 = sqrt((dif_x__8 * dif_x__8) + (dif_y__8 * dif_y__8)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 737: Return type of function sqrt is void, but result is used as type int: distance__17 = sqrt((dif_x__7 * dif_x__7) + (dif_y__7 * dif_y__7)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 692: Return type of function sqrt is void, but result is used as type int: distance__16 = sqrt((dif_x__6 * dif_x__6) + (dif_y__6 * dif_y__6)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 653: Return type of function sqrt is void, but result is used as type int: distance__15 = sqrt((dif_x__5 * dif_x__5) + (dif_y__5 * dif_y__5)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 620: Return type of function sqrt is void, but result is used as type int: distance__14 = sqrt((dif_x__4 * dif_x__4) + (dif_y__4 * dif_y__4)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 587: Return type of function sqrt is void, but result is used as type int: distance__13 = sqrt((dif_x__3 * dif_x__3) + (dif_y__3 * dif_y__3)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 546: Return type of function sqrt is void, but result is used as type int: distance__12 = sqrt((dif_x__2 * dif_x__2) + (dif_y__2 * dif_y__2)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 505: Return type of function sqrt is void, but result is used as type int: distance__11 = sqrt((dif_x__1 * dif_x__1) + (dif_y__1 * dif_y__1)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 477: Return type of function sqrt is void, but result is used as type int: distance__10 = sqrt((dif_x * dif_x) + (dif_y * dif_y)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     3.116s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_canny *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 72 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sqrt found, first called in line 235 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2 found, first called in line 240 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+line 235: Return type of function sqrt is void, but result is used as type int: __CPAchecker_TMP_0 = sqrt((sobelX * sobelX) + (sobelY * sobelY)); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function sqrt to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Cannot get declaration of function sqrt, ignoring calls to it. (PredicateCPA:ExpressionToFormulaVisitor.visit, WARNING)
+
+line 240: Return type of function atan2 is void, but result is used as type int: __CPAchecker_TMP_1 = atan2(sobelY * 1.0, sobelX * 1.0); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function atan2 to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Warning: Analysis interrupted (The CPU-time limit of 900s has elapsed.) (ShutdownNotifier.shutdownIfNecessary, WARNING)
+
+Shutdown requested (The CPU-time limit of 900s has elapsed.), waiting for termination. (ForceTerminationOnShutdown$1.shutdownRequested, WARNING)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_contrast *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     1.179s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_cutselection *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.294s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_deform *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 96 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2f found, first called in line 102 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function cosf found, first called in line 103 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sinf found, first called in line 104 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function pow found, first called in line 138 (CheckBindingVisitor.visit, WARNING)
+
+line 160: Dead code detected: break; (CFACreationUtils.addEdgeToCFA, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+line 131: Return type of function sqrt is void, but result is used as type int: distance = sqrt(distance2); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function sqrt to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Cannot get declaration of function sqrt, ignoring calls to it. (PredicateCPA:ExpressionToFormulaVisitor.visit, WARNING)
+
+line 137: Return type of function atan2f is void, but result is used as type int: __CPAchecker_TMP_3 = atan2f(dy, dx); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function atan2f to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+line 138: Return type of function pow is void, but result is used as type int: __CPAchecker_TMP_4 = pow(distance / rad, angle / 50); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function pow to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+line 139: Return type of function cosf is void, but result is used as type int: __CPAchecker_TMP_5 = cosf(k); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function cosf to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+line 140: Return type of function sinf is void, but result is used as type int: __CPAchecker_TMP_6 = sinf(k); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function sinf to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+line 96: Return type of function sqrt is void, but result is used as type int: distance = sqrt(distance2); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 102: Return type of function atan2f is void, but result is used as type int: __CPAchecker_TMP_0 = atan2f(dy, dx); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 103: Return type of function cosf is void, but result is used as type int: __CPAchecker_TMP_1 = cosf(k); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 104: Return type of function sinf is void, but result is used as type int: __CPAchecker_TMP_2 = sinf(k); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.236s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_dim *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.132s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_dim2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.310s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_fft *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 80: illegal floating point literal: 1.0iF (full line is cpl t = cexp(-
+# 80 "preprocessed.c" 3 4
+                 (__extension__ 1.0iF) 
+# 80 "preprocessed.c"
+                   * PI * i / n) * out[i + step];)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gaussblur *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 66 (CheckBindingVisitor.visit, WARNING)
+
+Error: Parsing failed (line 78: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@6892b3b6: Type depends on an unresolved name of initializer are not assignment compatible: 1.0/(M_PI*sigma2_2) (full line is double factor = 1.0/(M_PI*sigma2_2);)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gausslowpass *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.117s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_gausslowpass2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 100 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.435s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Exception in thread "main" java.lang.IllegalArgumentException: Not supported interface
+	at org.sosy_lab.cpachecker.util.predicates.smt.FormulaManagerView.makeGreaterThan(FormulaManagerView.java:821)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.PointerTargetSetBuilder$RealPointerTargetSetBuilder.makeNextBaseAddressInequality(PointerTargetSetBuilder.java:327)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.PointerTargetSetBuilder$RealPointerTargetSetBuilder.addBase(PointerTargetSetBuilder.java:291)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.makeAllocation(DynamicMemoryHandler.java:387)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.handleDeferredAllocationTypeRevelation(DynamicMemoryHandler.java:577)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.handleDeferredAllocationsInAssignment(DynamicMemoryHandler.java:710)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.handleDeferredAllocationsInAssignment(DynamicMemoryHandler.java:656)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.AssignmentHandler.handleAssignment(AssignmentHandler.java:186)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.CToFormulaConverterWithPointerAliasing.makeAssignment(CToFormulaConverterWithPointerAliasing.java:860)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeAssignment(CtoFormulaConverter.java:1404)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeStatement(CtoFormulaConverter.java:1127)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.createFormulaForEdge(CtoFormulaConverter.java:1077)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeAnd(CtoFormulaConverter.java:947)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.PathFormulaManagerImpl.makeAnd(PathFormulaManagerImpl.java:213)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.PathFormulaManagerImpl.makeAnd(PathFormulaManagerImpl.java:265)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.CachingPathFormulaManager.makeAnd(CachingPathFormulaManager.java:102)
+	at org.sosy_lab.cpachecker.cpa.predicate.PredicateTransferRelation.convertEdgeToPathFormula(PredicateTransferRelation.java:231)
+	at org.sosy_lab.cpachecker.cpa.predicate.PredicateTransferRelation.getAbstractSuccessorsForEdge(PredicateTransferRelation.java:152)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.callTransferRelation(CompositeTransferRelation.java:267)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessorForSimpleEdge(CompositeTransferRelation.java:237)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessorForEdge(CompositeTransferRelation.java:145)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessors(CompositeTransferRelation.java:108)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.ARG_CPAStrategy.checkSuccessors(ARG_CPAStrategy.java:136)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkAndAddSuccessors(AbstractARGStrategy.java:173)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkCertificate(AbstractARGStrategy.java:133)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkCertificate(AbstractARGStrategy.java:87)
+	at org.sosy_lab.cpachecker.core.algorithm.pcc.ProofCheckAlgorithm.run(ProofCheckAlgorithm.java:155)
+	at org.sosy_lab.cpachecker.core.algorithm.pcc.ConfigReadingProofCheckAlgorithm.run(ConfigReadingProofCheckAlgorithm.java:131)
+	at org.sosy_lab.cpachecker.core.CPAchecker.runAlgorithm(CPAchecker.java:481)
+	at org.sosy_lab.cpachecker.core.CPAchecker.run(CPAchecker.java:359)
+	at org.sosy_lab.cpachecker.cmdline.CPAMain.main(CPAMain.java:171)
+***** INPUT:  service_grayhistoequal *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took    61.474s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+***** INPUT:  service_grey *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.281s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_hitormiss *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 77 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.384s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Exception in thread "main" java.lang.IllegalArgumentException: Not supported interface
+	at org.sosy_lab.cpachecker.util.predicates.smt.FormulaManagerView.makeGreaterThan(FormulaManagerView.java:821)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.PointerTargetSetBuilder$RealPointerTargetSetBuilder.makeNextBaseAddressInequality(PointerTargetSetBuilder.java:327)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.PointerTargetSetBuilder$RealPointerTargetSetBuilder.addBase(PointerTargetSetBuilder.java:291)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.makeAllocation(DynamicMemoryHandler.java:387)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.handleDeferredAllocationTypeRevelation(DynamicMemoryHandler.java:577)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.DynamicMemoryHandler.handleDeferredAllocationsInAssignment(DynamicMemoryHandler.java:619)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.AssignmentHandler.handleAssignment(AssignmentHandler.java:186)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.pointeraliasing.CToFormulaConverterWithPointerAliasing.makeAssignment(CToFormulaConverterWithPointerAliasing.java:860)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeAssignment(CtoFormulaConverter.java:1404)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeStatement(CtoFormulaConverter.java:1127)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.createFormulaForEdge(CtoFormulaConverter.java:1077)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.ctoformula.CtoFormulaConverter.makeAnd(CtoFormulaConverter.java:947)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.PathFormulaManagerImpl.makeAnd(PathFormulaManagerImpl.java:213)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.PathFormulaManagerImpl.makeAnd(PathFormulaManagerImpl.java:265)
+	at org.sosy_lab.cpachecker.util.predicates.pathformula.CachingPathFormulaManager.makeAnd(CachingPathFormulaManager.java:102)
+	at org.sosy_lab.cpachecker.cpa.predicate.PredicateTransferRelation.convertEdgeToPathFormula(PredicateTransferRelation.java:231)
+	at org.sosy_lab.cpachecker.cpa.predicate.PredicateTransferRelation.getAbstractSuccessorsForEdge(PredicateTransferRelation.java:152)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.callTransferRelation(CompositeTransferRelation.java:267)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessorForSimpleEdge(CompositeTransferRelation.java:237)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessorForEdge(CompositeTransferRelation.java:171)
+	at org.sosy_lab.cpachecker.cpa.composite.CompositeTransferRelation.getAbstractSuccessors(CompositeTransferRelation.java:108)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.ARG_CPAStrategy.checkSuccessors(ARG_CPAStrategy.java:136)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkAndAddSuccessors(AbstractARGStrategy.java:173)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkCertificate(AbstractARGStrategy.java:133)
+	at org.sosy_lab.cpachecker.pcc.strategy.arg.AbstractARGStrategy.checkCertificate(AbstractARGStrategy.java:87)
+	at org.sosy_lab.cpachecker.core.algorithm.pcc.ProofCheckAlgorithm.run(ProofCheckAlgorithm.java:155)
+	at org.sosy_lab.cpachecker.core.algorithm.pcc.ConfigReadingProofCheckAlgorithm.run(ConfigReadingProofCheckAlgorithm.java:131)
+	at org.sosy_lab.cpachecker.core.CPAchecker.runAlgorithm(CPAchecker.java:481)
+	at org.sosy_lab.cpachecker.core.CPAchecker.run(CPAchecker.java:359)
+	at org.sosy_lab.cpachecker.cmdline.CPAMain.main(CPAMain.java:171)
+***** INPUT:  service_maxrgb *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.427s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_median *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.470s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_morphedgedetection *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 78 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.253s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_morphopen *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 67 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.384s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_negative *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.314s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_pixelate *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.261s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_radialblur *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 76 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function malloc found, first called in line 77 (CheckBindingVisitor.visit, WARNING)
+
+Undefined identifier M_PI found, first referenced in line 95 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function cos found, first called in line 96 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sin found, first called in line 97 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2 found, first called in line 169 (CheckBindingVisitor.visit, WARNING)
+
+Error: Parsing failed (Invalid C code because of undefined identifiers mentioned above.) (CFABuilder.createCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_reflect *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 70: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@61001b64: Type depends on an unresolved name of initializer are not assignment compatible: angleNew * M_PI / 180.0 (full line is double angleRad = angleNew * M_PI / 180.0;)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_resize *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.161s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_rgbchannelmixer *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.333s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_rotate *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 72: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@1151e434: Type depends on an unresolved name of initializer are not assignment compatible: degree * M_PI / 180 (full line is double teta = degree * M_PI / 180;)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_scaling *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 85 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.537s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_sobel *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function abs found, first called in line 97 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+line 97: Return type of function abs is void, but result is used as type int: __CPAchecker_TMP_2 = abs(temp_red_x); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function abs to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Cannot get declaration of function abs, ignoring calls to it. (PredicateCPA:ExpressionToFormulaVisitor.visit, WARNING)
+
+line 97: Return type of function abs is void, but result is used as type int: __CPAchecker_TMP_3 = abs(temp_red_y); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 97: Return type of function abs is void, but result is used as type int: abs(temp_red_y); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 97: Return type of function abs is void, but result is used as type int: abs(temp_red_x); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.307s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_whitebalance *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function pow found, first called in line 94 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (PredicateCPA:FormulaManagerView.<init>, WARNING)
+
+Using predicate analysis with SMTInterpol 2.1-335-g4c543a5 and JFactory 1.21. (PredicateCPA:PredicateCPA.<init>, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+line 101: Return type of function pow is void, but result is used as type int: Rm = pow(Rm / (columns * rows), p_fl); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Assuming external function pow to be a pure function. (PredicateCPA:ExpressionToFormulaVisitor.visit, INFO)
+
+Cannot get declaration of function pow, ignoring calls to it. (PredicateCPA:ExpressionToFormulaVisitor.visit, WARNING)
+
+line 102: Return type of function pow is void, but result is used as type int: Gm = pow(Gm / (columns * rows), p_fl); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 103: Return type of function pow is void, but result is used as type int: Bm = pow(Bm / (columns * rows), p_fl); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 94: Return type of function pow is void, but result is used as type int: __CPAchecker_TMP_0 = pow((pixpack_source[pos]).red, p); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 95: Return type of function pow is void, but result is used as type int: __CPAchecker_TMP_1 = pow((pixpack_source[pos]).green, p); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+line 96: Return type of function pow is void, but result is used as type int: __CPAchecker_TMP_2 = pow((pixpack_source[pos]).blue, p); (PredicateCPA:CtoFormulaConverter.getReturnType, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.376s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".

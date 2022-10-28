@@ -1,0 +1,48 @@
+#!/bin/bash
+
+DIR=${DIR:-'{{SEDE_DIRECTORY}}'}
+
+cd $DIR
+
+## Get OS kernel
+OS=$(uname -s)
+
+## JQ JSON Parser
+if [ $OS == 'Darwin' ]; then
+  jq="$DIR/helpers/jq-osx-amd64"
+else
+  jq="$DIR/helpers/jq-linux64"
+fi
+
+# Sample services
+SEDE_SERVICES=${SEDE_SERVICES:='{{SEDE_SERVICES}}'}
+SERVICES=`echo "{\"services\":${SEDE_SERVICES}}" | $jq '.["services"][]'`
+eval "SERVICES=(${SERVICES})"
+
+## Empty the src folder
+rm -rf $DIR/src
+mkdir -p $DIR/src
+
+## Making sure all bash scripts will run properly
+find "$DIR"/. -type f -name '*.sh' -exec chmod +x '{}' \;
+
+
+if [ ${#SERVICES[@]} == 0 ]; then
+  echo "You didn’t choose any service."
+  exit 1
+fi
+
+
+echo "Trying to get '$SEDE_SERVICES'."
+for entry in "$DIR"/hooks/*
+do
+  source "$entry"
+
+  # return value from hook is stored in $?
+  RETURN_CODE=$?
+
+  if [ "$RETURN_CODE" -eq "1" ]; then
+    echo "$entry failed"
+  fi
+done
+

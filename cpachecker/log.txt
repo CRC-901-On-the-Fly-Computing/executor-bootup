@@ -1,0 +1,905 @@
+***** INPUT:  service_blend *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 79 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.597s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_canny *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 72 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sqrt found, first called in line 235 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2 found, first called in line 240 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.294s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_contrast *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.193s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_cutselection *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.171s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_deform *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 96 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2f found, first called in line 102 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function cosf found, first called in line 103 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sinf found, first called in line 104 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function pow found, first called in line 138 (CheckBindingVisitor.visit, WARNING)
+
+line 160: Dead code detected: break; (CFACreationUtils.addEdgeToCFA, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.231s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_dim *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.162s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_dim2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.166s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_fft *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 80: illegal floating point literal: 1.0iF (full line is cpl t = cexp(-
+# 80 "preprocessed.c" 3 4
+                 (__extension__ 1.0iF) 
+# 80 "preprocessed.c"
+                   * PI * i / n) * out[i + step];)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gaussblur *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 66 (CheckBindingVisitor.visit, WARNING)
+
+Error: Parsing failed (line 78: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@6892b3b6: Type depends on an unresolved name of initializer are not assignment compatible: 1.0/(M_PI*sigma2_2) (full line is double factor = 1.0/(M_PI*sigma2_2);)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_gausslowpass *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.187s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_gausslowpass2 *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 100 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.246s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_grayhistoequal *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.193s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_grey *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.173s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_hitormiss *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 77 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.170s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_maxrgb *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Error: line 189: Unsupported C feature (Does not support assignment to dereferenced variable due to missing aliasing support): *colorPtrTarget__1 (line was originally *colorPtrTarget = *colorPtrSource;) (ReachingDefUtils$VariableExtractor.visit, SEVERE)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+Verification result: UNKNOWN, incomplete analysis.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_median *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.247s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_morphedgedetection *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 78 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.176s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_morphopen *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 67 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.234s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_negative *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.163s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_pixelate *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.188s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_radialblur *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function sqrt found, first called in line 76 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function malloc found, first called in line 77 (CheckBindingVisitor.visit, WARNING)
+
+Undefined identifier M_PI found, first referenced in line 95 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function cos found, first called in line 96 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function sin found, first called in line 97 (CheckBindingVisitor.visit, WARNING)
+
+Undefined function atan2 found, first called in line 169 (CheckBindingVisitor.visit, WARNING)
+
+Error: Parsing failed (Invalid C code because of undefined identifiers mentioned above.) (CFABuilder.createCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_reflect *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 70: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@61001b64: Type depends on an unresolved name of initializer are not assignment compatible: angleNew * M_PI / 180.0 (full line is double angleRad = angleNew * M_PI / 180.0;)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_resize *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.203s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_rgbchannelmixer *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.165s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_rotate *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Error: Parsing failed (line 72: Type double of declaration and type org.eclipse.cdt.internal.core.dom.parser.ProblemType@1151e434: Type depends on an unresolved name of initializer are not assignment compatible: degree * M_PI / 180 (full line is double teta = degree * M_PI / 180;)) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the -preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+
+Proof cannot be generated because checked property not known to be true. (ProofGenerator.generateProof, SEVERE)
+
+More details about the verification run can be found in the directory "./output".
+cp: Aufruf von stat für 'output/arg.proof' nicht möglich: Datei oder Verzeichnis nicht gefunden
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+More details about the verification run can be found in the directory "./output".
+***** INPUT:  service_scaling *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function malloc found, first called in line 85 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.171s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_sobel *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function abs found, first called in line 97 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.166s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+***** INPUT:  service_whitebalance *****
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Using the following resource limits: CPU-time limit of 900s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 1.7 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_91) started (CPAchecker.run, INFO)
+
+Undefined function pow found, first called in line 94 (CheckBindingVisitor.visit, WARNING)
+
+Using unsound approximation of ints with unbounded integers and floats with unbounded integers for encoding program semantics. (ARGCPA:FormulaManagerView.<init>, WARNING)
+
+Starting analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Analysis may be unsound if external method redefines global variables or considers extra global variables. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Analysis may be unsound in case of aliasing. (ReachingDefCPA:ReachingDefTransferRelation.handleStatementEdge, WARNING)
+
+Stopping analysis ... (CPAchecker.runAlgorithm, INFO)
+
+Proof Generation started. (ProofGenerator.constructAndWriteProof, INFO)
+
+No proof state information collected. (AbstractStrategy.writeProof, INFO)
+
+Writing proof took     0.222s (ProofGenerator.constructAndWriteProof, INFO)
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
+Preprocessing... done!
+Running CPAchecker with default heap size (1200M). Specify a larger value with -heap if you have more RAM.
+Running CPAchecker with default stack size (1024k). Specify a larger value with -stack if needed.
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
+Graphical representation included in the file "./output/Report.html".
